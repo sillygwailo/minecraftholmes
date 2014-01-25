@@ -1,6 +1,8 @@
 Minecraft Holmes
 ==========
 
+Read the backstory about this bot [on my notes page](http://notes.justagwailo.com/twitter/bots/minecraftholmes). TL;DR: it tweets video game titles + "Holmes", in the spirit of "Minecraft Holmes" jokes (Sherlock Holmes has a brother named Mycroft, and it sounds like the name of the popular video game Minecraft).
+
 Requires [node](http://nodejs.org/) and [npm](http://npmjs.org/). You also need a Twitter App access token, consumer key, and associated secrets: https://dev.twitter.com/apps/new
 
 Before running the program:
