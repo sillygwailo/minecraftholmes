@@ -26,7 +26,7 @@ setInterval(function() {
         });
       }
       catch (err) {
-        console.log("Whale!: " + err);
+        console.log("error: " + err);
       }
     });
   });
