@@ -1,12 +1,12 @@
 var Twit = require('twit');
 var T = new Twit(require(__dirname + '/twitter.js'));
+var http = require('http');
 
 // Get a random integer between min and max http://stackoverflow.com/a/12885196/300278
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
-var http = require('http');
 setInterval(function() {
   var parseString = require('xml2js').parseString;
   http.get('http://thegamesdb.net/api/GetGame.php?id=' + getRandomInt(0, 20000), function(res) {
